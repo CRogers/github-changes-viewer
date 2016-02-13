@@ -1,6 +1,6 @@
 test:
   override:
-    - echo No tests
+    - ./webpack
 
 deployment:
   master:
