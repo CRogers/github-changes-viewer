@@ -1,0 +1,10 @@
+{
+  "name": "github-changes-viewer",
+  "version": "0.1.0",
+  "devDependencies": {
+    "file-loader": "^0.8.5",
+    "jade": "^1.11.0",
+    "jade-html-loader": "0.0.3",
+    "webpack": "^1.12.13"
+  }
+}
