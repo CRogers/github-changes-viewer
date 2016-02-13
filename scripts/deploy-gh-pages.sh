@@ -13,7 +13,7 @@ echo * | tr -s " " "\n" | grep -v build | xargs rm -rf
 cp build/* .
 rm -rf build/
 
-git add .
+git add --all .
 
 echo Remaining files:
 git status
