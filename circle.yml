@@ -1,9 +1,10 @@
 test:
   override:
-    - true
+    - echo No tests
 
 deployment:
   master:
     branch: master
+    owner: CRogers
     commands:
       - ./scripts/deploy-gh-pages.sh
