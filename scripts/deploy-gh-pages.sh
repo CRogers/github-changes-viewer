@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eu
+
 git config user.email "circleci-build-node@circleci.com"
 git config user.name "CircleCI build node"
 
@@ -16,4 +18,5 @@ ls
 echo
 
 git commit -am "$HASH_MESSAGE"
+
 git push -f origin gh-pages
