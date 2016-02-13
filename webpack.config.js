@@ -1,5 +1,5 @@
 module.exports = {
-  entry: 'file?name=index-foo.html!jade-html!./src/jade/index.jade',
+  entry: 'file?name=index.html!jade-html!./src/jade/index.jade',
   output: {
     path: __dirname + '/build',
     publicPath: '/build/',
