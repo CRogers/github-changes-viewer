@@ -14,7 +14,7 @@ cp build/* .
 rm -rf build/
 
 echo Remaining files:
-ls
+git status
 echo
 
 git commit -am "$HASH_MESSAGE"
