@@ -13,10 +13,10 @@ echo * | tr -s " " "\n" | grep -v build | xargs rm -rf
 cp build/* .
 rm -rf build/
 
+git commit -am "$HASH_MESSAGE"
+
 echo Remaining files:
 git status
 echo
-
-git commit -am "$HASH_MESSAGE"
 
 git push -f origin gh-pages
