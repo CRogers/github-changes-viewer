@@ -8,7 +8,7 @@
     "bower_components/**/*.d.ts",
     "typings/**/*.d.ts",
     "src/**/*.ts",
-    "src/**/*.tsx"
+    "src/**/*.d.ts"
   ],
   "exclude": [
     "node_modules",
