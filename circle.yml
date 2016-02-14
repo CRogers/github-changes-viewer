@@ -1,6 +1,7 @@
-branches:
-  except:
-    - gh-pages
+general:
+  branches:
+    ignore:
+      - gh-pages
 
 test:
   override:
