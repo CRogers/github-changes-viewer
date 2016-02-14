@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "devDependencies": {
     "file-loader": "^0.8.5",
+    "github-api": "^0.11.2",
     "jade": "^1.11.0",
     "jade-html-loader": "0.0.3",
     "ts-loader": "^0.8.1",
