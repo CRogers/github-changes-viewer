@@ -9,7 +9,7 @@ HASH_MESSAGE="$(git show --oneline | head -n1)"
 
 git checkout --orphan gh-pages
 
-echo * | tr -s " " "\n" | grep -v build | xargs rm -rf
+echo * | tr -s " " "\n" | grep -v -E "build|circle\.yml" | xargs rm -rf
 cp build/* .
 rm -rf build/
 
