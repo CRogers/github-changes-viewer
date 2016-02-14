@@ -27,4 +27,4 @@ function read(repo: GithubApi.Repo, branch: string, path: string): Promise<strin
 }
 
 read(repo, 'master', 'readme.md')
-    .then((answer) => console.log(answer));
+    .then((answer) => document.write('<pre>' + answer + '</pre>'));
