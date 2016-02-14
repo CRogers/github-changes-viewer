@@ -10,8 +10,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      {test: /\.jade/, loader: 'jade-html-loader'},
-      {test: /\.ts/, loader: 'ts-loader'}
+      {test: /\.jade$/, loader: 'jade-html-loader'},
+      {test: /\.ts$/, loader: 'ts-loader'}
     ]
   }
 };

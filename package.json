@@ -2,11 +2,13 @@
   "name": "github-changes-viewer",
   "version": "0.1.0",
   "devDependencies": {
+    "awesome-typescript-loader": "^0.15.10",
     "file-loader": "^0.8.5",
     "jade": "^1.11.0",
     "jade-html-loader": "0.0.3",
     "ts-loader": "^0.8.1",
     "typescript": "^1.7.5",
-    "webpack": "^1.12.13"
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
   }
 }
